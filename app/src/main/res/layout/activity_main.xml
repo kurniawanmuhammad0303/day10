@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Rent Kocak"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <CheckBox
+        android:id="@+id/pajero_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pajero" />
+
+    <CheckBox
+        android:id="@+id/alphard_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alphard" />
+
+    <CheckBox
+        android:id="@+id/innova_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Innova " />
+
+    <CheckBox
+        android:id="@+id/brio_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brio" />
+
+    <CheckBox
+        android:id="@+id/inside_city_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inside city " />
+
+    <CheckBox
+        android:id="@+id/outside_city_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outside city " />
+
+    <EditText
+        android:id="@+id/days_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Days"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Calculate Total" />
+
+    <TextView
+        android:id="@+id/total_price_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price: Rp. 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
